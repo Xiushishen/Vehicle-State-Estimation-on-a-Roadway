@@ -12,3 +12,18 @@ c. Correct nominal state
 d. Correct state covariance
 The illustration below shows the above pseudocode in a workflow diagram.
 ![image](https://user-images.githubusercontent.com/103896788/194776029-e3138738-3b4f-47c3-9ec2-9125d016151c.png)
+# Results
+Part 1: ES-EKF using Inertia Measurement Unit (IMU) data for prediction step and LIDAR point cloud and GPS for correction.
+Vehicle state estimates | State estimation error plot
+:-------------------------:|:-------------------------:
+<img src='https://github.com/JagtapSagar/Error-State-Extended-Kalman-Filter/blob/main/Images/Part_1.png'> | <img src='https://github.com/JagtapSagar/Error-State-Extended-Kalman-Filter/blob/main/Images/Part_1_error_plots.png'>
+
+Part 2: With adjusted filter parameters to account for calibration errors introduced in LIDAR sensor.
+Vehicle state estimates | State estimation error plot
+:-------------------------:|:-------------------------:
+<img src='https://github.com/JagtapSagar/Error-State-Extended-Kalman-Filter/blob/main/Images/Part_2.png'> | <img src='https://github.com/JagtapSagar/Error-State-Extended-Kalman-Filter/blob/main/Images/Part_2_error_plots.png'>
+
+Part 3: Effects of sensor dropout, that is, when all external positioning information (from GPS and LIDAR) is lost for a short period of time.
+Vehicle state estimates | State estimation error plot
+:-------------------------:|:-------------------------:
+<img src='https://github.com/JagtapSagar/Error-State-Extended-Kalman-Filter/blob/main/Images/Part_3.png'> | <img src='https://github.com/JagtapSagar/Error-State-Extended-Kalman-Filter/blob/main/Images/Part_3_error_plots.png'>
