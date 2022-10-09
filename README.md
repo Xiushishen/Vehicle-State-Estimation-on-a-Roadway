@@ -11,3 +11,4 @@ b. Compute error state
 c. Correct nominal state
 d. Correct state covariance
 The illustration below shows the above pseudocode in a workflow diagram.
+![image](https://user-images.githubusercontent.com/103896788/194776029-e3138738-3b4f-47c3-9ec2-9125d016151c.png)
