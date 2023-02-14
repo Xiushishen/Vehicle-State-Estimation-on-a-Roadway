@@ -21,9 +21,9 @@ Vehicle state estimates | State estimation error plot
 Part 2: With adjusted filter parameters to account for calibration errors introduced in LIDAR sensor.
 Vehicle state estimates | State estimation error plot
 :-------------------------:|:-------------------------:
-<img src='https://github.com/Xiushishen/Vehicle-State-Estimation-on-a-Roadway/blob/main/Vehicle%20State%20Estimation%20on%20a%20Roadway/Images/Part_2.png'> | <img src='https://github.com/JagtapSagar/Error-State-Extended-Kalman-Filter/blob/main/Images/Part_2_error_plots.png'>
+<img src='https://github.com/Xiushishen/Vehicle-State-Estimation-on-a-Roadway/blob/main/Vehicle%20State%20Estimation%20on%20a%20Roadway/Images/Part_2.png'> | <img src='https://github.com/Xiushishen/Vehicle-State-Estimation-on-a-Roadway/blob/main/Vehicle%20State%20Estimation%20on%20a%20Roadway/Images/Part_2_error_plots.png'>
 
 Part 3: Effects of sensor dropout, that is, when all external positioning information (from GPS and LIDAR) is lost for a short period of time.
 Vehicle state estimates | State estimation error plot
 :-------------------------:|:-------------------------:
-<img src='https://github.com/Xiushishen/Vehicle-State-Estimation-on-a-Roadway/blob/main/Vehicle%20State%20Estimation%20on%20a%20Roadway/Images/Part_3.png'> | <img src='https://github.com/JagtapSagar/Error-State-Extended-Kalman-Filter/blob/main/Images/Part_3_error_plots.png'>
+<img src='https://github.com/Xiushishen/Vehicle-State-Estimation-on-a-Roadway/blob/main/Vehicle%20State%20Estimation%20on%20a%20Roadway/Images/Part_3.png'> | <img src='https://github.com/Xiushishen/Vehicle-State-Estimation-on-a-Roadway/blob/main/Vehicle%20State%20Estimation%20on%20a%20Roadway/Images/Part_3_error_plots.png'>
